@@ -46,4 +46,4 @@ if __name__ == "__main__":
     plt.grid(linestyle='--')
     plt.xlabel('Nucleotide mutation rate (given)')
     plt.ylabel('AA mutation rate in a codon (computed)')
-    plt.show()
+    plt.savefig('p_aa_vs_p_nt.pdf')
